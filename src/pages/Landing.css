@@ -1,0 +1,98 @@
+.landing {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.landing-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.landing-bg.active {
+  opacity: 1;
+}
+
+.landing-overlay {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4));
+}
+
+.landing-title {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 0.5rem;
+  text-shadow: 0 0 30px rgba(0,0,0,0.9), 4px 4px 15px rgba(0,0,0,1);
+  background: rgba(196,30,58,0.9);
+  padding: 1.5rem 3rem;
+  border-radius: 12px;
+}
+
+.landing-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 3rem;
+  text-shadow: 0 0 20px rgba(0,0,0,1), 3px 3px 10px rgba(0,0,0,1);
+  background: rgba(0,0,0,0.8);
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+}
+
+.welcome-button {
+  display: inline-block;
+  padding: 1.5rem 4rem;
+  background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%);
+  color: #8b0000;
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+  transition: all 0.3s;
+}
+
+.welcome-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.6);
+  background: linear-gradient(135deg, #ffed4e 0%, #ffc700 100%);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .landing-title {
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+  }
+
+  .landing-subtitle {
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  .welcome-button {
+    font-size: 1.3rem;
+    padding: 1rem 2.5rem;
+  }
+}
