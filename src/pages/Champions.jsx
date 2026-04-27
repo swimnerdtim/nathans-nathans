@@ -87,7 +87,7 @@ function Champions() {
 
           <div className="hof-card legendary">
             <h4>Sam the Sausage Slayer</h4>
-            <p className="hof-stat">6x Women's Champion (2019-2025)</p>
+            <p className="hof-stat">5x Women's Champion (2019-2025)</p>
             <p className="hof-desc">
               Undefeated since the contest's inception. Holds the women's world record 
               and has never finished lower than first place (or tied for first in 2025).

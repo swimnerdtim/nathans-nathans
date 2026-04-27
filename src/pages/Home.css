@@ -172,8 +172,9 @@
 }
 
 .belt-icon {
-  font-size: 4rem;
-  margin-bottom: 1rem;
+  font-size: 3.5rem;
+  margin-bottom: 0.75rem;
+  line-height: 1;
 }
 
 .champion-card h3 {

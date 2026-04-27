@@ -92,7 +92,7 @@ function Home() {
             <div className="belt-icon">🏆</div>
             <h3>MEN'S MUSTARD BELT</h3>
             <p className="champion-name">{championships.mens.current}</p>
-            <p className="champion-stat">WORLD RECORD: 10 DOGS & BUNS</p>
+            <p className="champion-stat">WORLD RECORD: 10 DOGS &amp; BUNS</p>
             <p className="champion-year">2025 CHAMPION</p>
           </div>
 
@@ -100,7 +100,7 @@ function Home() {
             <div className="belt-icon">💗</div>
             <h3>WOMEN'S PINK PEPTO-BISMOL BELT</h3>
             <p className="champion-name">Sam the Sausage Slayer</p>
-            <p className="champion-stat">6X CHAMPION</p>
+            <p className="champion-stat">5X CHAMPION</p>
             <p className="champion-year">2025 CO-CHAMPION (TIED)</p>
           </div>
         </div>
