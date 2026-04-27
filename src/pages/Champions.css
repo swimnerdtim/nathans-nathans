@@ -1,0 +1,292 @@
+.champions-page {
+  padding-bottom: 3rem;
+}
+
+.page-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 4px solid #c41e3a;
+}
+
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #c41e3a;
+  margin-bottom: 0.5rem;
+}
+
+.page-header p {
+  font-size: 1.3rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Records Section */
+.records-section {
+  margin-bottom: 4rem;
+}
+
+.records-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.records-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 2rem;
+}
+
+.record-card {
+  background: linear-gradient(135deg, #c41e3a 0%, #8b0000 100%);
+  color: white;
+  padding: 3rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+.record-card.womens {
+  background: linear-gradient(135deg, #ff69b4 0%, #ff1493 100%);
+}
+
+.record-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.record-card h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.record-number {
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.record-label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  opacity: 0.9;
+}
+
+.record-holder {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.record-year {
+  font-size: 1.2rem;
+  font-weight: 600;
+  opacity: 0.85;
+}
+
+/* Belts Section */
+.belts-section {
+  margin-bottom: 4rem;
+}
+
+.belts-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.belt-holder {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  border-left: 8px solid #c41e3a;
+}
+
+.belt-holder.womens-belt {
+  border-left-color: #ff69b4;
+}
+
+.belt-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.belt-emoji {
+  font-size: 3rem;
+}
+
+.belt-title h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #c41e3a;
+}
+
+.womens-belt .belt-title h3 {
+  color: #ff69b4;
+}
+
+.belt-champ {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.belt-titles {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.belt-desc {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+/* Hall of Fame */
+.hall-of-fame {
+  margin-bottom: 4rem;
+}
+
+.hall-of-fame h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.hof-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.hof-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-top: 4px solid #ffd700;
+}
+
+.hof-card.legendary {
+  border-top-color: #c41e3a;
+  background: linear-gradient(to bottom, #fff9e6 0%, white 100%);
+}
+
+.hof-card h4 {
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.hof-stat {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #c41e3a;
+  margin-bottom: 1rem;
+}
+
+.hof-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Stats Section */
+.stats-section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+}
+
+.stat-box {
+  background: linear-gradient(135deg, #ffd700 0%, #ffb700 100%);
+  padding: 2.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.stat-number {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #8b0000;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.stat-label {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .page-header h1 {
+    font-size: 2rem;
+  }
+
+  .records-section h2,
+  .belts-section h2,
+  .hall-of-fame h2,
+  .stats-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .record-number {
+    font-size: 3.5rem;
+  }
+
+  .belt-champ {
+    font-size: 2rem;
+  }
+
+  .hof-grid {
+    grid-template-columns: 1fr;
+  }
+}

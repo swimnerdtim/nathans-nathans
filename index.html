@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nathan's Nathan's Famous Hot Dog Eating Contest | July 4th, Baylake Pines</title>
+    <meta name="description" content="The legendary Nathan's Nathan's Famous Hot Dog Eating Contest. Every July 4th in Baylake Pines, Virginia Beach. Compete for the Mustard Belt or Pink Pepto-Bismol Belt!" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Handle 404 redirects for client-side routing
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
+  </body>
+</html>

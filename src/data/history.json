@@ -1,0 +1,139 @@
+{
+  "years": [
+    {
+      "year": 2025,
+      "date": "July 4, 2025",
+      "mensWinner": {
+        "name": "Jimmy the Shark",
+        "count": 10,
+        "isRecord": true,
+        "previousChamp": false
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer & Jillian Batchelor (tie)",
+        "count": 4,
+        "isRecord": false,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2024,
+      "date": "July 4, 2024",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2023,
+      "date": "July 4, 2023",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2022,
+      "date": "July 4, 2022",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2021,
+      "date": "July 4, 2021",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2020,
+      "date": "July 4, 2020",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": true
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": 4.5,
+        "isRecord": true,
+        "previousChamp": true
+      }
+    },
+    {
+      "year": 2019,
+      "date": "July 4, 2019",
+      "mensWinner": {
+        "name": "Peter \"Cookie\" Jaeckel",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": false
+      },
+      "womensWinner": {
+        "name": "Sam the Sausage Slayer",
+        "count": null,
+        "isRecord": false,
+        "previousChamp": false
+      }
+    }
+  ],
+  "records": {
+    "mens": {
+      "holder": "Jimmy the Shark",
+      "count": 10,
+      "year": 2025
+    },
+    "womens": {
+      "holder": "Sam the Sausage Slayer",
+      "count": 4.5,
+      "year": 2020
+    }
+  },
+  "championships": {
+    "mens": {
+      "current": "Jimmy the Shark",
+      "titles": 1
+    },
+    "womens": {
+      "current": "Sam the Sausage Slayer & Jillian Batchelor (tie)",
+      "samTitles": 6,
+      "jillianTitles": 1
+    }
+  }
+}
