@@ -7,7 +7,7 @@ function Gallery() {
   // Generate array of photo paths
   const photos = Array.from({ length: 39 }, (_, i) => ({
     id: i + 1,
-    src: `/contest_${i + 1}.jpeg`,
+    src: `${import.meta.env.BASE_URL}contest_${i + 1}.jpeg`,
     alt: `Nathan's Nathan's Contest Photo ${i + 1}`
   }))
 
