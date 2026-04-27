@@ -45,6 +45,21 @@ function Home() {
         </div>
       </div>
 
+      {/* Welcome Section */}
+      <div className="welcome-section">
+        <h2>A Baylake Pines Tradition</h2>
+        <p>
+          What started in 2019 as a neighborhood joke has become a legendary Fourth of July 
+          tradition. Every year, hundreds gather at the corner of Sea Chest & Trelawney Roads 
+          to watch their neighbors attempt the impossible: consuming as many Nathan's Famous 
+          hot dogs and buns as humanly possible in just 3 minutes.
+        </p>
+        <p>
+          Champions are crowned, records are shattered, and glory is earned. This isn't Coney 
+          Island—it's Baylake Pines. And we do it better.
+        </p>
+      </div>
+
       {/* Countdown */}
       <div className="countdown-section">
         <h3>NEXT CONTEST IN:</h3>
