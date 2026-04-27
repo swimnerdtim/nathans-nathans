@@ -5,7 +5,7 @@
 /* Hero */
 .hero {
   height: 600px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), 
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.75)), 
               url('/hero_crowd.jpg') center/cover;
   display: flex;
   align-items: center;
@@ -27,7 +27,10 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin-bottom: 1rem;
-  text-shadow: 4px 4px 12px rgba(0,0,0,0.8);
+  text-shadow: 0 0 20px rgba(0,0,0,0.9), 4px 4px 12px rgba(0,0,0,1);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);
+  padding: 1rem 2rem 0.5rem;
+  border-radius: 8px;
 }
 
 .hero-subtitle {
@@ -37,22 +40,30 @@
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   line-height: 1.3;
-  text-shadow: 4px 4px 12px rgba(0,0,0,0.8);
+  text-shadow: 0 0 20px rgba(0,0,0,0.9), 4px 4px 12px rgba(0,0,0,1);
 }
 
 .hero-date {
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 2rem;
+  font-weight: 900;
   color: #ffd700;
   margin-bottom: 0.5rem;
-  text-shadow: 3px 3px 8px rgba(0,0,0,0.8);
+  text-shadow: 0 0 20px rgba(0,0,0,1), 3px 3px 8px rgba(0,0,0,1);
+  background: rgba(0,0,0,0.5);
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .hero-location {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   letter-spacing: 0.1em;
-  text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+  text-shadow: 0 0 15px rgba(0,0,0,1), 2px 2px 6px rgba(0,0,0,1);
+  background: rgba(0,0,0,0.4);
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 /* Welcome Section */
