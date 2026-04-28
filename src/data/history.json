@@ -3,121 +3,211 @@
     {
       "year": 2025,
       "date": "July 4, 2025",
+      "competitors": 11,
       "mensWinner": {
         "name": "Jimmy the Shark",
         "count": 10,
         "isRecord": true,
-        "previousChamp": false
+        "previousChamp": false,
+        "notes": "Shattered Kyle's 2022 world record, ending Cookie's dominance"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer & Jillian Batchelor (tie)",
         "count": 4,
         "isRecord": false,
-        "previousChamp": true
-      }
+        "previousChamp": true,
+        "notes": "Sam remains undefeated, ties with Jillian"
+      },
+      "highlights": [
+        "11 competitors (largest field ever)",
+        "Lucy wins 5th consecutive kids' watermelon title",
+        "Va Beach Fire Dept on standby",
+        "Massive water balloon fight",
+        "Lady Liberty costume appearance",
+        "Digital countdown timer",
+        "Chef Justin Padgett with Cappy helping grill"
+      ]
     },
     {
       "year": 2024,
       "date": "July 4, 2024",
+      "competitors": 9,
       "mensWinner": {
         "name": "Peter \"Cookie\" Jaeckel",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
+        "previousChamp": true,
+        "notes": "5th title, extends dynasty"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
-      }
+        "previousChamp": true,
+        "notes": "4th title, remains undefeated"
+      },
+      "highlights": [
+        "Giant American flag hung from pine tree",
+        "Lucy wins 4th consecutive kids' watermelon title",
+        "Platform and professional sound system",
+        "Uncle Sam: Betty Ann and Tom Fitzgerald",
+        "Chef: Justin Padgett",
+        "Adult beverages by Josh and Kat",
+        "Inflatables and bounce houses",
+        "Perry turns 4, Eve turns 2",
+        "Best year yet according to organizers"
+      ]
     },
     {
       "year": 2023,
       "date": "July 4, 2023",
+      "competitors": 9,
       "mensWinner": {
         "name": "Peter \"Cookie\" Jaeckel",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
+        "previousChamp": false,
+        "notes": "4th title - reclaims throne after Kyle's 2022 win"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
-      }
+        "previousChamp": true,
+        "notes": "3rd title, undefeated"
+      },
+      "highlights": [
+        "Mustard Belt officially introduced",
+        "Dunk Tank added (Santee family)",
+        "Ice cream cart (Sonia)",
+        "Face painting and temporary tattoos",
+        "Adult beverage tent continues",
+        "Uncle Sam costume tradition",
+        "Main Event atmosphere"
+      ]
     },
     {
       "year": 2022,
       "date": "July 4, 2022",
+      "competitors": 9,
       "mensWinner": {
-        "name": "Peter \"Cookie\" Jaeckel",
-        "count": null,
-        "isRecord": false,
-        "previousChamp": true
+        "name": "Kyle \"the Kidd\"",
+        "count": 7.5,
+        "isRecord": true,
+        "previousChamp": false,
+        "notes": "Sets first world record! Cookie out of town (not competing)"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
-      }
+        "previousChamp": true,
+        "notes": "2nd title"
+      },
+      "highlights": [
+        "Kyle sets first-ever world record at 7.5 dogs",
+        "Cookie absent (out of town)",
+        "Championship belt introduced",
+        "Adult Beverage Tent debuts (Josh and Kat)",
+        "Watermelon + Hot Dog contests",
+        "Blue smoke and fireworks",
+        "Madey Jo Kohler and Eva Ellen Tschohl born last fall"
+      ]
     },
     {
       "year": 2021,
       "date": "July 4, 2021",
+      "competitors": 8,
       "mensWinner": {
         "name": "Peter \"Cookie\" Jaeckel",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
+        "previousChamp": true,
+        "notes": "3rd consecutive title"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
-      }
+        "previousChamp": false,
+        "notes": "1st title - first female competitor!"
+      },
+      "highlights": [
+        "Major expansion year - became a full festival",
+        "Sam joins as first female competitor",
+        "Grand entrance through homemade curtain added",
+        "Theme songs and biographies for each competitor",
+        "First watermelon eating contest (hands behind back)",
+        "Kids can participate",
+        "Rita's Frozen Ice Tent debuts",
+        "Uncle Sam costume introduced",
+        "Party/Charley expecting baby #2"
+      ]
     },
     {
       "year": 2020,
       "date": "July 4, 2020",
+      "competitors": 8,
       "mensWinner": {
         "name": "Peter \"Cookie\" Jaeckel",
         "count": null,
         "isRecord": false,
-        "previousChamp": true
+        "previousChamp": true,
+        "notes": "2nd consecutive title"
       },
       "womensWinner": {
         "name": "Sam the Sausage Slayer",
         "count": 4.5,
         "isRecord": true,
-        "previousChamp": true
-      }
+        "previousChamp": false,
+        "notes": "Sets women's world record"
+      },
+      "highlights": [
+        "COVID year - contest continued outdoors",
+        "First professional poster/flyer",
+        "Bigger crowd attendance",
+        "Free hot dogs and beverages",
+        "Side Dad's contest (baby girls)",
+        "Sam sets women's WR at 4.5 dogs (still stands)"
+      ]
     },
     {
       "year": 2019,
       "date": "July 4, 2019",
+      "competitors": 3,
       "mensWinner": {
         "name": "Peter \"Cookie\" Jaeckel",
         "count": null,
         "isRecord": false,
-        "previousChamp": false
+        "previousChamp": false,
+        "notes": "Inaugural champion - dynasty begins"
       },
       "womensWinner": {
-        "name": "Sam the Sausage Slayer",
+        "name": null,
         "count": null,
         "isRecord": false,
-        "previousChamp": false
-      }
+        "previousChamp": false,
+        "notes": "No women competed yet"
+      },
+      "highlights": [
+        "ORIGIN: Started by Nathan Tschohl and Casey Kohler",
+        "3 initial competitors",
+        "Hand-painted banner",
+        "Quick event during Bay Lake Pines 4th of July Parade",
+        "The beginning of a legend"
+      ]
     }
   ],
   "records": {
     "mens": {
       "holder": "Jimmy the Shark",
       "count": 10,
-      "year": 2025
+      "year": 2025,
+      "previous": {
+        "holder": "Kyle \"the Kidd\"",
+        "count": 7.5,
+        "year": 2022
+      }
     },
     "womens": {
       "holder": "Sam the Sausage Slayer",
@@ -128,12 +218,27 @@
   "championships": {
     "mens": {
       "current": "Jimmy the Shark",
-      "titles": 1
+      "titles": 1,
+      "allTime": [
+        { "name": "Peter \"Cookie\" Jaeckel", "titles": 5, "years": "2019-2021, 2023-2024" },
+        { "name": "Kyle \"the Kidd\"", "titles": 1, "years": "2022" },
+        { "name": "Jimmy the Shark", "titles": 1, "years": "2025" }
+      ]
     },
     "womens": {
       "current": "Sam the Sausage Slayer & Jillian Batchelor (tie)",
       "samTitles": 5,
-      "jillianTitles": 1
+      "jillianTitles": 1,
+      "allTime": [
+        { "name": "Sam the Sausage Slayer", "titles": 5, "years": "2020-2025 (undefeated)" }
+      ]
+    }
+  },
+  "specialAwards": {
+    "kidsWatermelon": {
+      "champion": "Lucy",
+      "consecutiveTitles": 5,
+      "years": "2021-2025"
     }
   }
 }

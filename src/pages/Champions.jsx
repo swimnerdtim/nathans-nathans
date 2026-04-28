@@ -78,19 +78,22 @@ function Champions() {
         <div className="hof-grid">
           <div className="hof-card legendary">
             <h4>Peter "Cookie" Jaeckel</h4>
-            <p className="hof-stat">5x Men's Champion (2019-2024)</p>
+            <p className="hof-stat">5x Men's Champion (2019-2021, 2023-2024)</p>
             <p className="hof-desc">
-              The original king. Dominated the competition for 6 straight years before 
-              being dethroned in 2025. Cookie set the standard and built the tradition.
+              The original king. Won the inaugural contest in 2019 and built a dynasty 
+              with 5 total titles. Only missed 2022 (out of town) when Kyle "the Kidd" 
+              set the first world record. Cookie reclaimed his throne in 2023-2024 before 
+              finally being defeated by Jimmy the Shark in 2025.
             </p>
           </div>
 
           <div className="hof-card legendary">
             <h4>Sam the Sausage Slayer</h4>
-            <p className="hof-stat">5x Women's Champion (2019-2025)</p>
+            <p className="hof-stat">5x Women's Champion (2020-2025)</p>
             <p className="hof-desc">
-              Undefeated since the contest's inception. Holds the women's world record 
-              and has never finished lower than first place (or tied for first in 2025).
+              The first female competitor (joined 2021) and undefeated since. Set the women's 
+              world record at 4.5 dogs in 2020 and has never finished lower than first place. 
+              In 2025, tied with Jillian Batchelor but remains undefeated.
             </p>
           </div>
 
@@ -98,17 +101,30 @@ function Champions() {
             <h4>Jimmy the Shark</h4>
             <p className="hof-stat">2025 Men's Champion • World Record Holder</p>
             <p className="hof-desc">
-              The perennial bridesmaid who finally broke through. Shattered Cookie's 
-              dynasty with 10 dogs in 2025, setting a new world record.
+              Ended Cookie's reign with a jaw-dropping 10 dogs and buns in 2025, shattering 
+              Kyle "the Kidd's" 2022 world record of 7.5. The perennial contender who finally 
+              broke through and claimed both the championship and the world record in one epic performance.
             </p>
           </div>
 
+          <div className="hof-card champion">
+            <h4>Kyle "the Kidd"</h4>
+            <p className="hof-stat">2022 Men's Champion • First World Record</p>
+            <p className="hof-desc">
+              Won in 2022 (Cookie was out of town) and set the first-ever world record 
+              at 7.5 dogs and buns. His record stood for 3 years until Jimmy the Shark 
+              shattered it in 2025. Cookie reclaimed the title in 2023, but Kyle's legacy 
+              as the first record-setter remains.
+            </p>
+          </div>
+          
           <div className="hof-card champion">
             <h4>Jillian Batchelor</h4>
             <p className="hof-stat">2025 Women's Co-Champion</p>
             <p className="hof-desc">
               Made history in 2025 by tying Sam the Sausage Slayer at 4 dogs, becoming 
-              the first person to share the Pink Pepto-Bismol Belt.
+              the first person to share the Pink Pepto-Bismol Belt and the only competitor 
+              to match Sam's performance.
             </p>
           </div>
         </div>
@@ -124,15 +140,23 @@ function Champions() {
           </div>
           <div className="stat-box">
             <p className="stat-number">10</p>
-            <p className="stat-label">All-Time Record (Men's)</p>
+            <p className="stat-label">Men's World Record</p>
           </div>
           <div className="stat-box">
             <p className="stat-number">4.5</p>
-            <p className="stat-label">All-Time Record (Women's)</p>
+            <p className="stat-label">Women's World Record</p>
+          </div>
+          <div className="stat-box">
+            <p className="stat-number">11</p>
+            <p className="stat-label">Competitors (2025)</p>
           </div>
           <div className="stat-box">
             <p className="stat-number">3</p>
-            <p className="stat-label">Minutes of Glory</p>
+            <p className="stat-label">Started With (2019)</p>
+          </div>
+          <div className="stat-box">
+            <p className="stat-number">5</p>
+            <p className="stat-label">Lucy's Watermelon Titles</p>
           </div>
         </div>
       </section>
