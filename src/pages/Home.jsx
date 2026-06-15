@@ -99,9 +99,9 @@ function Home() {
           <div className="champion-card womens">
             <div className="belt-icon"></div>
             <h3>WOMEN'S PINK PEPTO-BISMOL BELT</h3>
-            <p className="champion-name">Sam the Sausage Slayer</p>
-            <p className="champion-stat">5X CHAMPION</p>
-            <p className="champion-year">2025 CO-CHAMPION (TIED)</p>
+            <p className="champion-name">Sam the Sausage Slayer & Jillian Batchelor</p>
+            <p className="champion-stat">4 DOGS & BUNS (TIED)</p>
+            <p className="champion-year">2025 CO-CHAMPIONS</p>
           </div>
         </div>
       </div>
