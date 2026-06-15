@@ -66,17 +66,7 @@ function History() {
                 </div>
               )}
 
-              {/* Highlights */}
-              {year.highlights && year.highlights.length > 0 && (
-                <div className="highlights-section">
-                  <h5>Highlights:</h5>
-                  <ul>
-                    {year.highlights.map((highlight, idx) => (
-                      <li key={idx}>{highlight}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+
             </div>
           </div>
         ))}
