@@ -39,7 +39,7 @@ function History() {
             <div className="timeline-content">
               {/* Men's Division */}
               <div className="winner mens-winner">
-                <h4>🏆 Men's Champion</h4>
+                <h4>Men's Champion</h4>
                 <p className="winner-name">{year.mensWinner.name}</p>
                 {year.mensWinner.count && (
                   <p className="winner-count">

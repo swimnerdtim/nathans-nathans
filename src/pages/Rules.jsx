@@ -10,7 +10,7 @@ function Rules() {
 
       <div className="rules-content">
         <section className="rule-section">
-          <h2>🌭 The Competition</h2>
+          <h2>The Competition</h2>
           <ul>
             <li><strong>Duration:</strong> Exactly 3 minutes</li>
             <li><strong>Hot Dogs:</strong> Nathan's Famous brand only</li>
@@ -20,7 +20,7 @@ function Rules() {
         </section>
 
         <section className="rule-section">
-          <h2>🏆 Categories & Prizes</h2>
+          <h2>Categories & Prizes</h2>
           <div className="categories-grid">
             <div className="category-card">
               <h3>Men's Division</h3>
@@ -36,7 +36,7 @@ function Rules() {
         </section>
 
         <section className="rule-section">
-          <h2>📋 Regulations</h2>
+          <h2>Regulations</h2>
           <ul>
             <li>All contestants must be residents or guests of Baylake Pines</li>
             <li>Contestants may dunk buns in water before consumption (optional)</li>
@@ -48,7 +48,7 @@ function Rules() {
         </section>
 
         <section className="rule-section">
-          <h2>📅 When & Where</h2>
+          <h2>When & Where</h2>
           <ul>
             <li><strong>Date:</strong> Every July 4th</li>
             <li><strong>Time:</strong> 12:00 PM (high noon)</li>
@@ -58,7 +58,7 @@ function Rules() {
         </section>
 
         <section className="rule-section">
-          <h2>✅ How to Enter</h2>
+          <h2>How to Enter</h2>
           <ul>
             <li>Sign up by emailing <a href="mailto:nathansnathansfamous@gmail.com">nathansnathansfamous@gmail.com</a></li>
             <li>Registration typically opens in June</li>
@@ -68,7 +68,7 @@ function Rules() {
         </section>
 
         <section className="disclaimer">
-          <h3>⚠️ Disclaimer</h3>
+          <h3>Disclaimer</h3>
           <p>
             This is a competitive eating event. Participants engage at their own risk. 
             We recommend consulting with a physician before participating if you have 

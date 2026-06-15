@@ -46,4 +46,4 @@ Automatically deploys to GitHub Pages on push to `main` branch.
 
 ---
 
-Powered by the #1 Neighborhood in Virginia Beach 🌭🏆
+Powered by the #1 Neighborhood in Virginia Beach

@@ -52,22 +52,22 @@ function SignUp() {
           <h3>Contest Details</h3>
           <div className="details-grid">
             <div className="detail-item">
-              <span className="detail-icon">📅</span>
+              <span className="detail-icon"></span>
               <h4>Date</h4>
               <p>July 4th, 2026</p>
             </div>
             <div className="detail-item">
-              <span className="detail-icon">⏰</span>
+              <span className="detail-icon"></span>
               <h4>Time</h4>
               <p>12:00 PM (Noon)</p>
             </div>
             <div className="detail-item">
-              <span className="detail-icon">📍</span>
+              <span className="detail-icon"></span>
               <h4>Location</h4>
               <p>Sea Chest & Trelawney Roads<br/>Baylake Pines, VA</p>
             </div>
             <div className="detail-item">
-              <span className="detail-icon">⏱️</span>
+              <span className="detail-icon"></span>
               <h4>Duration</h4>
               <p>3 Minutes</p>
             </div>

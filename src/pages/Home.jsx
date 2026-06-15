@@ -89,7 +89,7 @@ function Home() {
         
         <div className="champion-cards">
           <div className="champion-card mens">
-            <div className="belt-icon">🏆</div>
+            <div className="belt-icon"></div>
             <h3>MEN'S MUSTARD BELT</h3>
             <p className="champion-name">{championships.mens.current}</p>
             <p className="champion-stat">WORLD RECORD: 10 DOGS &amp; BUNS</p>
@@ -97,7 +97,7 @@ function Home() {
           </div>
 
           <div className="champion-card womens">
-            <div className="belt-icon">💗</div>
+            <div className="belt-icon"></div>
             <h3>WOMEN'S PINK PEPTO-BISMOL BELT</h3>
             <p className="champion-name">Sam the Sausage Slayer</p>
             <p className="champion-stat">5X CHAMPION</p>
@@ -116,19 +116,19 @@ function Home() {
       {/* Info Grid */}
       <div className="info-grid">
         <div className="info-card">
-          <h4>🌭 The Challenge</h4>
+          <h4>The Challenge</h4>
           <p>Eat as many Nathan's Famous hot dogs and buns as possible in just 3 minutes</p>
         </div>
         <div className="info-card">
-          <h4>🏆 The Prize</h4>
+          <h4>The Prize</h4>
           <p>Win the legendary Mustard Belt or Pink Pepto-Bismol Belt and neighborhood immortality</p>
         </div>
         <div className="info-card">
-          <h4>📅 The Tradition</h4>
+          <h4>The Tradition</h4>
           <p>Every July 4th since 2019 at the corner of Sea Chest & Trelawney Roads</p>
         </div>
         <div className="info-card">
-          <h4>🎉 The Atmosphere</h4>
+          <h4>The Atmosphere</h4>
           <p>Part of Baylake Pines' legendary 4th of July celebration</p>
         </div>
       </div>

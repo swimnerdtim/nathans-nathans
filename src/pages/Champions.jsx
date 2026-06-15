@@ -16,7 +16,7 @@ function Champions() {
         <h2>WORLD RECORDS</h2>
         <div className="records-grid">
           <div className="record-card mens">
-            <div className="record-icon">🔥</div>
+            <div className="record-icon"></div>
             <h3>MEN'S WORLD RECORD</h3>
             <p className="record-number">{records.mens.count}</p>
             <p className="record-label">DOGS & BUNS</p>
@@ -25,7 +25,7 @@ function Champions() {
           </div>
 
           <div className="record-card womens">
-            <div className="record-icon">⚡</div>
+            <div className="record-icon"></div>
             <h3>WOMEN'S WORLD RECORD</h3>
             <p className="record-number">{records.womens.count}</p>
             <p className="record-label">DOGS & BUNS</p>
@@ -41,7 +41,7 @@ function Champions() {
         
         <div className="belt-holder mens-belt">
           <div className="belt-title">
-            <span className="belt-emoji">🏆</span>
+            <span className="belt-emoji"></span>
             <h3>MEN'S MUSTARD BELT</h3>
           </div>
           <div className="belt-content">
@@ -56,7 +56,7 @@ function Champions() {
 
         <div className="belt-holder womens-belt">
           <div className="belt-title">
-            <span className="belt-emoji">💗</span>
+            <span className="belt-emoji"></span>
             <h3>WOMEN'S PINK PEPTO-BISMOL BELT</h3>
           </div>
           <div className="belt-content">
