@@ -19,10 +19,9 @@ function History() {
           neighborhood tradition drawing hundreds of spectators every year.
         </p>
         <p>
-          From 3 initial competitors and a hand-painted banner to 11 competitors, professional 
-          sound systems, and a festival atmosphere with watermelon contests, bounce houses, and 
-          fireworks—Nathan's Nathan's has become THE event of the summer in the #1 neighborhood 
-          in Virginia Beach.
+          From a hand-painted banner to professional sound systems, and a festival atmosphere 
+          with watermelon contests, bounce houses, and fireworks—Nathan's Nathan's has become 
+          THE event of the summer in the #1 neighborhood in Virginia Beach.
         </p>
       </div>
 
@@ -32,9 +31,7 @@ function History() {
             <div className="timeline-year">
               <h2>{year.year}</h2>
               <p>{year.date}</p>
-              {year.competitors && (
-                <span className="competitor-count">{year.competitors} Competitors</span>
-              )}
+
             </div>
             <div className="timeline-content">
               {/* Men's Division */}
