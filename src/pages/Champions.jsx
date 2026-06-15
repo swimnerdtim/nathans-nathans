@@ -71,9 +71,9 @@ function Champions() {
         </div>
       </section>
 
-      {/* Hall of Fame */}
+      {/* Champions */}
       <section className="hall-of-fame">
-        <h2>HALL OF FAME</h2>
+        <h2>CHAMPIONS</h2>
         
         <div className="hof-grid">
           <div className="hof-card legendary">
@@ -130,36 +130,7 @@ function Champions() {
         </div>
       </section>
 
-      {/* Fun Stats */}
-      <section className="stats-section">
-        <h2>BY THE NUMBERS</h2>
-        <div className="stats-grid">
-          <div className="stat-box">
-            <p className="stat-number">7</p>
-            <p className="stat-label">Years of Competition</p>
-          </div>
-          <div className="stat-box">
-            <p className="stat-number">10</p>
-            <p className="stat-label">Men's World Record</p>
-          </div>
-          <div className="stat-box">
-            <p className="stat-number">4.5</p>
-            <p className="stat-label">Women's World Record</p>
-          </div>
-          <div className="stat-box">
-            <p className="stat-number">11</p>
-            <p className="stat-label">Competitors (2025)</p>
-          </div>
-          <div className="stat-box">
-            <p className="stat-number">3</p>
-            <p className="stat-label">Started With (2019)</p>
-          </div>
-          <div className="stat-box">
-            <p className="stat-number">5</p>
-            <p className="stat-label">Lucy's Watermelon Titles</p>
-          </div>
-        </div>
-      </section>
+
     </div>
   )
 }
