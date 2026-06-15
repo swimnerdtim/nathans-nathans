@@ -51,7 +51,7 @@ function Rules() {
           <h2>When & Where</h2>
           <ul>
             <li><strong>Date:</strong> Every July 4th</li>
-            <li><strong>Time:</strong> 12:00 PM (high noon)</li>
+            <li><strong>Time:</strong> 10:00 AM</li>
             <li><strong>Location:</strong> Corner of Sea Chest & Trelawney Roads, Baylake Pines</li>
             <li><strong>Part of:</strong> Baylake Pines 4th of July Celebration</li>
           </ul>

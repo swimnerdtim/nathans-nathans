@@ -15,7 +15,7 @@ function Home() {
   }, [])
 
   function calculateTimeLeft() {
-    const eventDate = new Date('2026-07-04T12:00:00')
+    const eventDate = new Date('2026-07-04T10:00:00')
     const now = new Date()
     const difference = eventDate - now
 

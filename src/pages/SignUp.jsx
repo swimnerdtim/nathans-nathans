@@ -59,7 +59,7 @@ function SignUp() {
             <div className="detail-item">
               <span className="detail-icon"></span>
               <h4>Time</h4>
-              <p>12:00 PM (Noon)</p>
+              <p>10:00 AM</p>
             </div>
             <div className="detail-item">
               <span className="detail-icon"></span>
